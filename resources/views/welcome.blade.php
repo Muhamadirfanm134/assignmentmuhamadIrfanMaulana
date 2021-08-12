@@ -8,14 +8,14 @@
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Themesbrand" name="author" />
     <!-- App favicon -->
-    <link rel="shortcut icon" href="{{ asset('images/favicon.ico') }}">
+    <link rel="shortcut icon" href="{{ secure_asset('images/favicon.ico') }}">
 
     <!-- Bootstrap Css -->
-    <link href="{{ asset('css/bootstrap.min.css') }}" id="bootstrap-style" rel="stylesheet" type="text/css" />
+    <link href="{{ secure_asset('css/bootstrap.min.css') }}" id="bootstrap-style" rel="stylesheet" type="text/css" />
     <!-- Icons Css -->
-    <link href="{{ asset('css/icons.min.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ secure_asset('css/icons.min.css') }}" rel="stylesheet" type="text/css" />
     <!-- App Css-->
-    <link href="{{ asset('css/app.css') }}" id=" app-style" rel="stylesheet" type="text/css" />
+    <link href="{{ secure_asset('css/app.css') }}" id=" app-style" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -341,12 +341,12 @@
 
 
     <!-- JAVASCRIPT -->
-    <script src="{{ asset('libs/jquery/jquery.min.js') }}"></script>
-    <script src="{{ asset('libs/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ secure_asset('libs/jquery/jquery.min.js') }}"></script>
+    <script src="{{ secure_asset('libs/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 
-    <script src="{{ asset('js/pages/dashboard.init.js') }}"></script>
+    <script src="{{ secure_asset('js/pages/dashboard.init.js') }}"></script>
 
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ secure_asset('js/app.js') }}"></script>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>
